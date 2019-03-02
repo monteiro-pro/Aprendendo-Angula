@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.teste{
+    color: red;
+}
+
+.teste2{
+    width: 225px;
+    height: 225px;
+    position: relative;
+    border: 1px solid black;
+}

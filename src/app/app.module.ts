@@ -16,3 +16,18 @@ import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-comp
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    BsDropdownModule.forRoot(),
+    TooltipModule.forRoot(),
+    ModalModule.forRoot()
+  ],
+  // ...
+})
+export class AppBootstrapModule {}
